@@ -3,6 +3,9 @@
 }
 body{
     font-family: poppins;
+    
+}
+header, main{
     margin: 0 80px;
 }
 nav{
@@ -128,3 +131,23 @@ main section img{
 }
 /* main end here */
 /* footer start here */
+.featured{
+    display: flex;
+    align-items: center;
+    gap:96px ;
+    justify-content: center;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+.fea-info{
+    width: 610px;
+}
+.footer{
+    background-color:#0A0826 ;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+/* footer end here */
