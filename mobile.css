@@ -1,7 +1,7 @@
 @media only screen and (max-width: 600px) {
    body{
     /* background-color: rgb(194, 194, 194); */
-    margin: 0 20px;
+    /* margin: 0 20px; */
    }
 
    header, main{
@@ -11,6 +11,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    gap: 24px;
 }
 nav ul {
     display: none;
@@ -75,17 +76,19 @@ nav ul li a{
 
 }
 .hero-title{
-    font-size: 38px;
-    width: 400px;
+    font-size: 32px;
+    width: 310px;
     text-align: center;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
     
     
 }
 .hero-sub{
-   width: 400px;
+    margin: 8px;
+   width:330px;
     font-size: 14px;
     margin-top: -24px;
     text-align: center;
@@ -135,7 +138,7 @@ header section{
 /* sponsors link end here */
 
 .cart{
-    width: 320px;
+    width: 300px;
     background-color: white;
     box-shadow: 4px 12px 16px 12px rgba(0, 0, 0, 0.06);
     padding: 16px ;
