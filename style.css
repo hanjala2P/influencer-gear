@@ -68,6 +68,12 @@ nav ul li a{
     width: 582px;
    
 }
+header section{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    
+}
 /* hero end here */
 .sites{
     display: flex;
@@ -78,12 +84,7 @@ nav ul li a{
     margin-bottom: 80px;
 
 }
-header section{
-    background-image: url(images/Circle\ design.svg);
-    background-repeat: no-repeat;
-    background-position: right;
-    
-}
+
 .cart{
     width: 320px;
     background-color: white;
