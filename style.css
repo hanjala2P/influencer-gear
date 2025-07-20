@@ -31,6 +31,9 @@ nav ul li a{
     height:32px ;
     width: 32px;
 }
+.menu1{
+    display: none;
+}
 /* nav end here */
 /* hero start from here */
 .hero{

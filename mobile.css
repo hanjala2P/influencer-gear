@@ -1,0 +1,113 @@
+@media only screen and (max-width: 600px) {
+   body{
+    /* background-color: rgb(194, 194, 194); */
+   }
+
+   header, main{
+      margin:  0 16px;
+   }
+   nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul {
+    display: none;
+    list-style: none;
+    gap: 36px;
+}
+.nav-left{
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+.nav-right{
+    display: flex;
+    gap: 36px;
+    align-items: center;
+}
+#nav-icon{
+    height:24px ;
+    width: 24px;
+}
+.menu1{
+    display:flex;
+}
+.name{
+   font-size: 24px;
+}
+/* nav end here */
+
+/* hero start from here */
+.hero{
+    display: flex;
+    flex-direction:column-reverse;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 24px;
+    margin-right: calc( - 40px);
+}
+.hero-img1{
+   width: 300px;
+   margin-top: 38px;
+
+}
+/* .hero-img{
+
+} */
+.cta{
+ background-color: var(--main-color);
+ height: 52px;
+ width: 196px;
+ border-radius: 4px;
+ color: white;
+ border: none;
+ font-size: 16px;
+ font-weight: 600;
+
+
+}
+.hero-title{
+    font-size: 38px;
+    
+    
+}
+.hero-sub{
+   width: 500px;
+    font-size: 14px;
+    margin-top: -24px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+
+}
+.hero-info{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    text-align: center;
+    margin: 20px;
+    align-items: center;
+    gap: 16px;
+    
+   
+}
+header section{
+    background-image: url(images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position:top center;
+    background-size: 80%;
+    }
+
+
+/* hero end here */
+
+
+
+
+
+}
