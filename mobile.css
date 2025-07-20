@@ -12,7 +12,7 @@
     align-items: center;
     justify-content: space-between;
     min-width: 375px;
-    gap: 24px;
+    gap: 48px;
 }
 nav ul {
     display: none;
@@ -41,7 +41,7 @@ nav ul li a{
     display:flex;
 }
 .name{
-   font-size: 24px;
+   font-size: 18px;
 }
 /* nav end here */
 
@@ -198,14 +198,16 @@ main section img{
     align-items: center;
     gap:32px ;
     justify-content: center;
-    margin-top: 120px;
-    margin-bottom: 120px;
+    margin-top: 64px;
+    margin-bottom: 64px;
+   
 }
 .fea-info{
-    width: 610px;
     text-align: center;
-    width: 400px;
-    gap: 16px;
+    width: 340px;
+    gap: 18px;
+    font-size: 14px;
+    
 }
 .footer{
     background-color:#0A0826 ;
